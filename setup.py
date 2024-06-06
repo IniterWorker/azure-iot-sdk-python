@@ -79,7 +79,7 @@ setup(
         "urllib3>=1.26.5,<1.27",
         # Actual project dependencies
         "deprecation>=2.1.0,<3.0.0",
-        "paho-mqtt>=1.6.1,<2.0.0",
+        "paho-mqtt @ git+https://github.com/IniterWorker/paho.mqtt.python.git@feature/pyopenssl-context",
         "requests>=2.20.0,<3.0.0",
         "requests-unixsocket>=0.1.5,<1.0.0",
         "janus",
