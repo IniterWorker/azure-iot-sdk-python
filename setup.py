@@ -82,6 +82,7 @@ setup(
         "paho-mqtt @ git+https://github.com/IniterWorker/paho.mqtt.python.git@feature/pyopenssl-context",
         "requests>=2.20.0,<3.0.0",
         "requests-unixsocket>=0.1.5,<1.0.0",
+        "pyOpenSSL>=23.2.0",
         "janus",
         "PySocks",
         "typing_extensions",
