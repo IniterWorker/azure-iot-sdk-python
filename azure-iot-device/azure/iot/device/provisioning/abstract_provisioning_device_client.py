@@ -236,6 +236,7 @@ class AbstractProvisioningDeviceClient(abc.ABC):
 
         return cls(mqtt_provisioning_pipeline)
 
+    @classmethod
     def create_from_ssl_context(
         cls,
         provisioning_host: str,
